@@ -1,0 +1,14 @@
+*{
+    padding: 0; /*preenchimento, distancia do elemento e suas bordas  */
+    margin: 0;  /*margem   */
+}
+body{
+    background:#b3cadb ;
+    
+}
+.foto img{
+    width: 300px; /*largura*/
+    height: 300px; /*altura*/
+    border-radius: 50%; /*deixar a foto dentro da moldura redonda, original era quadrado*/
+    transform: rotate(-90deg); /*rotacionei a foto -90° para acertar o ângulo*/
+}
